@@ -1,0 +1,18 @@
+print("Welcome to customer info")
+
+name = input("Enter your name: ")
+address = input("Enter your address: ")
+phone = input("Enter your phone number: ")
+email = input("Enter your email: ")
+sex = input("Enter your gender: ")
+age = input("Enter your age: ")
+
+print("\nCustomer Information:")
+print("Name:", name)
+print("Address:", address)
+print("Phone Number:", phone)
+print("Email:", email)
+print("Gender:", sex)
+print("Age:", age)
+
+print("\nThank you for providing your information!")
