@@ -1,0 +1,52 @@
+# 1. create 5 food list
+food = ["pasta", "spaghetti", "pancit", "adobo", "noodles"]
+
+addFood = input("Enter food to add: ")
+food.append(addFood)
+print(food)
+
+removeFood = input("Enter food to remove: ")
+food.remove(removeFood)
+print(food)
+
+
+# 2. create a tuple of favorite cars
+cars = ("toyota", "honda", "bmw", "ford", "audi")
+
+print(cars)
+print("2nd car: " + cars[1])
+print("last car: " + cars[-1])
+print(cars)
+
+
+# 3. create a set of 6 hobbies
+physicalHobbies = {
+    "swimming",
+    "running",
+    "biking",
+    "coding",
+    "swimming",
+    "weightlifting",
+}
+
+mentalHobbies = {
+    "reading",
+    "coding",
+    "listening to music",
+    "playing video games",
+    "watching movies",
+    "playing board games"
+}
+
+print("\n")
+print("Set A: ", physicalHobbies)
+print("Set B: ", mentalHobbies)
+print("\n")
+
+union = physicalHobbies | mentalHobbies
+difference = physicalHobbies - mentalHobbies
+intersection = physicalHobbies & mentalHobbies
+
+print("Union: ", union)
+print("Difference: ", difference)
+print("Intersection: ", intersection)
